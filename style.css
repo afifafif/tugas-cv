@@ -1,0 +1,150 @@
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100%;
+  background-color: beige;
+}
+
+nav {
+  font-family: Noto Sans, sans-serif;
+  font-weight: medium;
+  font-size: 16px;
+  position: fixed;
+  background-color: #00394A;
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  padding-left: 110px;
+  padding-right: 110px;
+  z-index: 99;
+}
+
+nav .am {
+  color: white;
+  font-family: Noto Sans, sans-serif;
+  font-weight: bold;
+  align-items: center;
+}
+
+nav ul {
+  list-style-type: none;
+  overflow: hidden;
+}
+
+nav li {
+  float: left;
+}
+
+li a {
+  font-family: Noto Sans, sans-serif;
+  font-weight: bold;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 24px 24px 14px 24px;
+  text-decoration: none;
+}
+
+#home{
+  padding-top: 10px;
+
+}
+.home-container {
+  display: flex;
+  flex-wrap: wrap;
+  border-color: blueviolet;
+  background-color: #f3f4f5;
+}
+
+.home-left-content {
+  padding: 340px 80px 0px 120px;
+  flex: 60%;
+  border-color: blueviolet;
+}
+
+.home-right-content {
+  flex: 40%;
+  position: relative;
+}
+
+.home-img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1000px;
+  width: 100%;
+  background-attachment: fixed;
+  margin-right: 0px;
+}
+
+.btn-about {
+  margin-top: 30px;
+  line-height: 60px;
+  font-weight: bold;
+  padding: 20px 40px;
+  background: #0D5166;
+  border: none;
+  text-decoration: none;
+  color: aliceblue;
+  border-radius: 7px;
+}
+
+.btn-about:hover {
+  background: #00394A;
+  color: aliceblue;
+}
+
+.deskripsi{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.judul {
+  font-family: Noto Sans, sans-serif;
+  font-size: 46px;
+  font-weight: bold;
+  padding-top: 90px;
+  padding-bottom: 70px;
+  text-align: center;
+}
+.judul2{
+  font-family: Noto Sans, sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  padding-top: 90px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+.subjudul h4{
+  font-weight: medium;
+}
+.isi {
+  font-family: Noto Sans, sans-serif;
+  text-align: left;
+  padding-right: 80px;
+}
+
+#about-me{
+  background-color: #f3f4f5;
+}
+.konten ul {
+  list-style-type: none;
+  padding-left: 0px;
+  line-height: 2.35;
+}
+
+#designs {
+  padding-left: 100px ;
+  padding-right: 100px;
+}
+
+#skills .skilljpg{
+  text-align: center;
+}
+
+#designs{
+  background-color: #f3f4f5;
+}
